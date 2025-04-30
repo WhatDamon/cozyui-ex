@@ -65,7 +65,7 @@ body:
     attributes:
       label: CozyUI+ Version
       description: Please provide the current version of CozyUI+ resource pack.
-      placeholder: 1.5
+      placeholder: "1.5"
     validations:
       required: true
   - type: dropdown

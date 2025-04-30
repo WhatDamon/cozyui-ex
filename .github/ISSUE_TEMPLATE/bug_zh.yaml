@@ -65,7 +65,7 @@ body:
     attributes:
       label: CozyUI+ 版本
       description: 请当前提供搭配使用的 CozyUI+ 版本.
-      placeholder: 1.5
+      placeholder: "1.5"
     validations:
       required: true
   - type: dropdown
