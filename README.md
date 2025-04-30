@@ -1,2 +1,35 @@
-# cozyui-ex
-Unofficial Extended Resource Pack for CozyUI+
+# 🥳 CozyUI Ex, an unofficial extended resource pack for CozyUI+
+
+> ⚠️ WARNING!!!
+>
+> Still in the process of production, some details may not be handled very well, please forgive 😥!
+
+> Remember, please **download [CozyUI+](https://modrinth.com/resourcepack/cozyui-plus) first**, then load this resource pack as follows...
+>
+> ![Example](https://cdn.modrinth.com/data/jrC5r3Mp/images/c7e8d2e10416e33d8a8c35121849be9b9f1e366d.png)
+>
+> Unless you like that kind of bad experience.
+
+This resource pack covers CozyUI+ into more mods, as well as supporting GUIs specific to the April Fool  snapshot _(e.g. 25w14craftmine)_
+
+## 🖊️ Extra Support
+
+| Name                                                         | Status of support                          |
+| ------------------------------------------------------------ | ------------------------------------------ |
+| 25w14craftmine                                               | 🟡 Flawed and needs improvement             |
+| [Auth Me](https://modrinth.com/mod/auth-me)                  | 🟢 Close to Perfect                         |
+| [Better Advancements](https://modrinth.com/mod/better-advancements) | 🟡 Flawed and needs improvement             |
+| [Create](https://modrinth.com/mod/create)                    | 📋In the planning                           |
+| [EMI](https://modrinth.com/mod/emi)                          | 📋In the planning (also in CozyUI+'s plans) |
+| [Fabric API](https://modrinth.com/mod/fabric-api)            | 🟢 Close to Perfect                         |
+| [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | 📋In the planning                           |
+
+## 😎 Special Thanks
+
+- [Fogg05](https://modrinth.com/user/Fogg05): the original creator of CozyUI+
+
+## 📜 License:
+
+Licensed under `GNU GENERAL PUBLIC LICENSE Version 3`
+
+![GPLv3](https://www.gnu.org/graphics/gplv3-127x51.png)

@@ -1,0 +1,89 @@
+name: Bug Report
+description: Report a bug on this resource pack.
+title: "[BUG]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to submit module UI problem reports!
+        Please carefully complete all the contents of this issue, any non-compliant issue will not be accepted and **Closed as not planned**.
+  - type: checkboxes
+    id: noduplicate
+    attributes:
+      label: Duplicate Issue Check
+      description: For efficiency, search Issues to see if the bug you are submitting has already been asked.
+      options:
+        - label: I'm sure none of the issues are duplicates of what I submitted!
+          required: true
+  - type: input
+    id: modname
+    attributes:
+      label: Mod or Snapshot Name
+      description: Please provide the name of the module or snapshot you would like to be supported.
+      placeholder: ex. Create
+    validations:
+      required: true
+  - type: input
+    id: moddownloadurl
+    attributes:
+      label: Mod Download URL
+      description: Please provide the download url (jar file) of the mod.
+      placeholder: https://xxx/xxx.jar
+    validations:
+      required: false
+  - type: dropdown
+    id: modloader
+    attributes:
+      label: Mod Loader
+      description: Please provide the mod loader you are using.
+      options:
+        - Vanilla
+        - Fabric
+        - Quilt
+        - NeoForge
+        - MinecraftForge
+    validations:
+      required: true
+  - type: input
+    id: modloaderversion
+    attributes:
+      label: Mod Loader Version
+      description: Please provide the current version of the mod loader.
+      placeholder: 0.16.0
+    validations:
+      required: false
+  - type: input
+    id: minecraftversion
+    attributes:
+      label: Minecraft Version
+      description: Please provide the current version of Minecraft.
+      placeholder: 1.21.5
+    validations:
+      required: true
+  - type: input
+    id: cozyuiversion
+    attributes:
+      label: CozyUI+ Version
+      description: Please provide the current version of CozyUI+ resource pack.
+      placeholder: 1.5
+    validations:
+      required: true
+  - type: dropdown
+    id: bugtype
+    attributes:
+      label: Bug Type
+      multiple: true
+      options:
+        - Textures position error
+        - Missing textures
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: moreonbug
+    attributes:
+      label: More infomation
+      description: Please provide more information, preferably with screenshots.
+      placeholder: ... happened.
+    validations:
+      required: true

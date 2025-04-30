@@ -1,0 +1,42 @@
+name: Request
+description: Tell me what mod you'd like to see use CozyUI for their UIs!
+title: "[REQUEST]: "
+labels: ["request", "need2discuss"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to submit a mod UI support request!
+        Please carefully complete all the contents of this issue, any non-compliant issue will not be accepted and **Closed as not planned**.
+  - type: checkboxes
+    id: noduplicate
+    attributes:
+      label: Duplicate Issue Check
+      description: To be more efficient, please search Issues to see if the mod you are looking for has already been requested.
+      options:
+        - label: I'm sure none of the issues are duplicates of what I submitted!
+          required: true
+  - type: input
+    id: modname
+    attributes:
+      label: Mod Name
+      description: Please provide the name of the mod you expect to be supported.
+      placeholder: ex. Create
+    validations:
+      required: true
+  - type: input
+    id: modurl
+    attributes:
+      label: Mod URL
+      description: Please provide the Modrinth or CurseForge URL for the mod.
+      placeholder: https://modrinth.com/mod/create
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: Tell me why the mod deserves to be supported
+      placeholder: Because...
+    validations:
+      required: true

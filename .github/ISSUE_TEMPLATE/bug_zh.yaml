@@ -1,0 +1,89 @@
+name: 问题报告
+description: 报告本材质的一些问题.
+title: "[BUG]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提交模组用户界面问题报告!
+        请仔细完成本 issue 的全部内容, 任何不符合要求的 issue 将不会受理并 **Closed as not planned**.
+  - type: checkboxes
+    id: noduplicate
+    attributes:
+      label: 重复 Issue 检查
+      description: 为了提高效率，请搜索 Issues 看看您要提交的问题是否有人提过了.
+      options:
+        - label: 我确定没有一个 issue 与我所提交的内容是重复的!
+          required: true
+  - type: input
+    id: modname
+    attributes:
+      label: 模组或快照名称
+      description: 请提供您希望被支持的模组或快照名称 (请优先使用英文).
+      placeholder: 例如 Create
+    validations:
+      required: true
+  - type: input
+    id: moddownloadurl
+    attributes:
+      label: 模组下载地址
+      description: 请提供模组的下载地址 (jar 文件).
+      placeholder: https://xxx/xxx.jar
+    validations:
+      required: false
+  - type: dropdown
+    id: modloader
+    attributes:
+      label: 模组加载器
+      description: 请提供您正在使用的模组加载器.
+      options:
+        - 原版
+        - Fabric
+        - Quilt
+        - NeoForge
+        - MinecraftForge
+    validations:
+      required: true
+  - type: input
+    id: modloaderversion
+    attributes:
+      label: 模组加载器版本
+      description: 请当前提供模组加载器的版本.
+      placeholder: 0.16.0
+    validations:
+      required: false
+  - type: input
+    id: minecraftversion
+    attributes:
+      label: Minecraft 版本
+      description: 请当前提供当前的游戏版本.
+      placeholder: 1.21.5
+    validations:
+      required: true
+  - type: input
+    id: cozyuiversion
+    attributes:
+      label: CozyUI+ 版本
+      description: 请当前提供搭配使用的 CozyUI+ 版本.
+      placeholder: 1.5
+    validations:
+      required: true
+  - type: dropdown
+    id: bugtype
+    attributes:
+      label: 问题类型
+      multiple: true
+      options:
+        - 错位
+        - 资源丢失
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: moreonbug
+    attributes:
+      label: 更多信息
+      description: 请提供更多信息, 最好搭配截图等.
+      placeholder: 发生了...
+    validations:
+      required: true

@@ -1,0 +1,42 @@
+name: 请求
+description: 告诉我你希望被 CozyUI 覆盖的模组!
+title: "[REQUEST]: "
+labels: ["request", "need2discuss"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提交模组用户界面支持请求!
+        请仔细完成本 issue 的全部内容, 任何不符合要求的 issue 将不会受理并 **Closed as not planned**.
+  - type: checkboxes
+    id: noduplicate
+    attributes:
+      label: 重复 Issue 检查
+      description: 为了提高效率，请搜索 Issues 看看您要找的模组是否已经有人请求过了.
+      options:
+        - label: 我确定没有一个 issue 与我所提交的内容是重复的!
+          required: true
+  - type: input
+    id: modname
+    attributes:
+      label: 模组名称
+      description: 请提供您希望被支持的模组名称 (请优先使用英文).
+      placeholder: 例如 Create
+    validations:
+      required: true
+  - type: input
+    id: modurl
+    attributes:
+      label: 模组地址
+      description: 请提供模组的 Modrinth 或 CurseForge 地址.
+      placeholder: https://modrinth.com/mod/create
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么
+      description: 告诉我为什么这个模组值得被支持.
+      placeholder: 因为...
+    validations:
+      required: true
