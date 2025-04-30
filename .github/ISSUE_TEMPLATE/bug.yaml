@@ -1,6 +1,7 @@
 name: Bug Report
 description: Report a bug on this resource pack.
 title: "[BUG]: "
+labels: ["bug", "need2discuss"]
 body:
   - type: markdown
     attributes:
