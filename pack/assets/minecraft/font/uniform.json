@@ -1,0 +1,25 @@
+// By WhatDamon, CozyUI Ex
+// Unicode: /ue498-/ue499
+
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/pack_cuex_1.png",
+            "height": 36,
+            "ascent": 31,
+            "chars": [
+                "\ue498"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/pack_cuex_2.png",
+            "height": 36,
+            "ascent": 31,
+            "chars": [
+                "\ue499"
+            ]
+        }
+    ]
+}

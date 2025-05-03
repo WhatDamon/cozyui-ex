@@ -1,40 +1,51 @@
 {
-  "pack": {
-    "pack_format": 33,
-    "supported_formats": [ 33, 9999 ],
-    "description": [
-      {
-            "bold": true,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "text": "By ",
-            "color": "#ffffff"
-        },
-        {
-            "bold": true,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "text": "WhatDamon\n",
-            "color": "#ffffff"
-        },
-        {
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "text": "≥1.21 ",
-            "color": "#54fcfc"
-        },
-        {
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "text": "需要 CozyUI+ 1.5 才能使用!",
-            "color": "#95959a"
-        }
-    ]
-  }
+    "pack": {
+        "pack_format": 33,
+        "supported_formats": [
+            33,
+            9999
+        ],
+        "description": [
+            {
+                "bold": true,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "By ",
+                "color": "#ffffff"
+            },
+            {
+                "bold": true,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "WhatDamon\n",
+                "color": "#ffffff"
+            },
+            {
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "\ue498\ue499 ",
+                "color": "#ffffff"
+            },
+            {
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "≥1.21 ",
+                "color": "#54fcfc"
+            },
+            {
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "text": "需要 CozyUI+ 1.5!",
+                "color": "#95959a"
+            }
+        ]
+    }
 }
