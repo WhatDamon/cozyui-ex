@@ -19,7 +19,7 @@ This resource pack covers CozyUI+ into more mods, as well as supporting GUIs spe
 | 25w14craftmine                                               | 🟡 Flawed and needs improvement                   |
 | [Auth Me](https://modrinth.com/mod/auth-me)                  | 🟢 Close to Perfect                               |
 | [Better Advancements](https://modrinth.com/mod/better-advancements) | 🟡 Flawed and needs improvement                   |
-| [Cloth Config API](https://modrinth.com/mod/cloth-config)    | 📋In the planning                                 |
+| [Cloth Config API](https://modrinth.com/mod/cloth-config)    | 🟢 Close to Perfect                               |
 | [Create](https://modrinth.com/mod/create)                    | 📋In the planning                                 |
 | [Controlify](https://modrinth.com/mod/controlify)            | 📋In the planning                                 |
 | [EMI](https://modrinth.com/mod/emi)                          | 📋In the planning (maybe also in CozyUI+'s plans) |
