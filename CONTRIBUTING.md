@@ -19,6 +19,7 @@ If you're a new contributor, please read this document to clarify the considerat
 - [**Styleguides.**](#styleguides)
   - [Commit messages.](#commit-messages)
   - [Files](#files)
+- [**FAQ**](#faq)
 
 
 
@@ -119,13 +120,13 @@ or...
 [TYPE]([MODNAME]): [MESSAGE]
 ~~~
 
-| **[TYPE]** | Descriptions                             |
-| ---------- | ---------------------------------------- |
-| `feat`     | Add new mod user interface               |
-| `fix`      | Fix some problems with existing textures |
-| `docs`     | Modification of documents                |
-| `revert`   | Rolling back past commits                |
-| `chore`    | Others                                   |
+| **[TYPE]** | Descriptions                                                 |
+| ---------- | ------------------------------------------------------------ |
+| `feat`     | Add new mod user interface                                   |
+| `fix`      | Fix some problems with existing textures, or just modified textures |
+| `docs`     | Modification of documents                                    |
+| `revert`   | Rolling back past commits                                    |
+| `chore`    | Others                                                       |
 
 **[MODNAME]**: The name (or namespace) of the target mod. *(optional)*
 
@@ -160,3 +161,8 @@ cozyui-ex /
 └── README.md
 ~~~
 
+## FAQ
+
+Q: Can I use software like paint.net to edit or create textures?
+
+*A: Yes, but you need to make sure that you have converted the project files to PSD files and that you have kept the layers!*
