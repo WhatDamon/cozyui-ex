@@ -1,0 +1,34 @@
+name: CozyUIEx Auto Pack
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  autopack:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout...
+        uses: actions/checkout@v4
+
+      - name: Preparing...
+        run: |
+          COMMIT_HASH=$(git rev-parse HEAD)
+          COMMIT_SHORT=$(git rev-parse --short=8 HEAD)
+          echo "COMMIT_HASH=$COMMIT_HASH" >> $GITHUB_ENV
+          echo "COMMIT_SHORT=$COMMIT_SHORT" >> $GITHUB_ENV
+          mkdir -p pack
+          cp LICENSE pack/
+          touch "pack/${COMMIT_HASH}"
+
+      - name: Packaging....
+        run: |
+          cd pack && zip -r "../CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}.zip" .
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}
+          path: CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}.zip
