@@ -126,6 +126,7 @@ or...
 | `fix`      | Fix some problems with existing textures, or just modified textures |
 | `docs`     | Modification of documents                                    |
 | `revert`   | Rolling back past commits                                    |
+| `workflow` | Changes to Github Actions or production workflows            |
 | `chore`    | Others                                                       |
 
 **[MODNAME]**: The name (or namespace) of the target mod. *(optional)*
