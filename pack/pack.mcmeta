@@ -1,10 +1,7 @@
 {
     "pack": {
-        "pack_format": 33,
-        "supported_formats": [
-            33,
-            9999
-        ],
+    "pack_format": 15,
+    "supported_formats": [ 15, 9999 ],
         "description": [
             {
                 "bold": true,
@@ -43,7 +40,7 @@
                 "italic": false,
                 "underlined": false,
                 "strikethrough": false,
-                "text": "需要 CozyUI+ 1.5!",
+                "text": "需要 CozyUI+ 1.6!",
                 "color": "#95959a"
             }
         ]
