@@ -20,6 +20,7 @@ This resource pack covers CozyUI+ into more mods, as well as supporting GUIs spe
 | [Auth Me](https://modrinth.com/mod/auth-me)                  | 🟢 Close to Perfect                               |
 | [Better Advancements](https://modrinth.com/mod/better-advancements) | 🔴 Need more tests                                |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config)    | 🟢 Close to Perfect                               |
+| [Crafting Tweaks](https://modrinth.com/mod/crafting-tweaks)  | 📋In the planning                                 |
 | [Create](https://modrinth.com/mod/create) (including Ponder) | 📋In the planning                                 |
 | [Controlify](https://modrinth.com/mod/controlify)            | 📋In the planning                                 |
 | [EMI](https://modrinth.com/mod/emi)                          | 📋In the planning (maybe also in CozyUI+'s plans) |
@@ -27,9 +28,11 @@ This resource pack covers CozyUI+ into more mods, as well as supporting GUIs spe
 | [Iris Shaders](https://modrinth.com/mod/iris)                | 🟢 Close to Perfects                              |
 | [Language Reload](https://modrinth.com/mod/language-reload)  | ✅ Perfect                                        |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | 🔴 Need more tests                                |
+| [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin) | 📋In the planning                                 |
 | [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip) | 🟡 Flawed and needs improvement                   |
 | [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) | 📋In the planning                                 |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | 🔴 Need more tests                                |
+| [XaeroPlus](https://modrinth.com/mod/xaeroplus/)             | ✅ Perfect                                        |
 
 ## 😎 Special Thanks
 
