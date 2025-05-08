@@ -12,6 +12,12 @@
 
 This resource pack covers CozyUI+ into more mods, as well as supporting GUIs specific to the April Fool  snapshot _(e.g. 25w14craftmine)_
 
+## ⬇️ Download
+
+You can download the latest version of this resources pack on [Modrinth](https://modrinth.com/resourcepack/cozyui-ex)! *(Recommended)*
+
+Want something more *nightly*? Get autopack version of this pack [here](https://github.com/WhatDamon/cozyui-ex/actions)! 
+
 ## 🖊️ Extra Support
 
 | Name                                                         | Status of support                                |
@@ -19,6 +25,7 @@ This resource pack covers CozyUI+ into more mods, as well as supporting GUIs spe
 | 25w14craftmine                                               | 🔴 Need more tests                                |
 | [Auth Me](https://modrinth.com/mod/auth-me)                  | 🟢 Close to Perfect                               |
 | [Better Advancements](https://modrinth.com/mod/better-advancements) | 🔴 Need more tests                                |
+| [Cherished Worlds](https://modrinth.com/mod/cherished-worlds) | ✅ Perfect                                        |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config)    | 🟢 Close to Perfect                               |
 | [Crafting Tweaks](https://modrinth.com/mod/crafting-tweaks)  | 📋In the planning                                 |
 | [Create](https://modrinth.com/mod/create) (including Ponder) | 📋In the planning                                 |
