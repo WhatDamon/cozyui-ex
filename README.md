@@ -24,6 +24,7 @@ This resource pack covers CozyUI+ into more mods, as well as supporting GUIs spe
 | [Controlify](https://modrinth.com/mod/controlify)            | 📋In the planning                                 |
 | [EMI](https://modrinth.com/mod/emi)                          | 📋In the planning (maybe also in CozyUI+'s plans) |
 | [Fabric API](https://modrinth.com/mod/fabric-api)            | ✅ Perfect                                        |
+| [Iris Shaders](https://modrinth.com/mod/iris)                | 🟢 Close to Perfects                              |
 | [Language Reload](https://modrinth.com/mod/language-reload)  | ✅ Perfect                                        |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | 🔴 Need more tests                                |
 | [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip) | 🟡 Flawed and needs improvement                   |
