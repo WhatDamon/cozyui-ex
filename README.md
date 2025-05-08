@@ -28,6 +28,7 @@ This resource pack covers CozyUI+ into more mods, as well as supporting GUIs spe
 | [Iris Shaders](https://modrinth.com/mod/iris)                | 🟢 Close to Perfects                              |
 | [Language Reload](https://modrinth.com/mod/language-reload)  | ✅ Perfect                                        |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | 🔴 Need more tests                                |
+| [Recursive Resources](https://modrinth.com/mod/recursiveresources) | 🟢 Close to Perfects                              |
 | [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin) | 📋In the planning                                 |
 | [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip) | 🟡 Flawed and needs improvement                   |
 | [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) | 📋In the planning                                 |
