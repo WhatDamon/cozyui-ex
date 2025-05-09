@@ -34,6 +34,7 @@ Want something more *nightly*? Get autopack version of this pack [here](https://
 | [Fabric API](https://modrinth.com/mod/fabric-api)            | ✅ Perfect                                        |
 | [Iris Shaders](https://modrinth.com/mod/iris)                | 🟢 Close to Perfects                              |
 | [Language Reload](https://modrinth.com/mod/language-reload)  | ✅ Perfect                                        |
+| [Net Music](https://modrinth.com/mod/net-music)              | 🔴 Need more tests                                |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | 🔴 Need more tests                                |
 | [Recursive Resources](https://modrinth.com/mod/recursiveresources) | 🟢 Close to Perfects                              |
 | [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin) | 📋In the planning                                 |
