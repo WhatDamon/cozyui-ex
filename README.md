@@ -27,6 +27,7 @@ Want something more *nightly*? Get autopack version of this pack [here](https://
 | 25w14craftmine                                               | 🔴 Need more tests                                |
 | [Auth Me](https://modrinth.com/mod/auth-me)                  | 🟢 Close to Perfect                               |
 | [Better Advancements](https://modrinth.com/mod/better-advancements) | 🔴 Need more tests                                |
+| [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue) | 🟢 Close to Perfects                              |
 | [Cherished Worlds](https://modrinth.com/mod/cherished-worlds) | ✅ Perfect                                        |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config)    | 🟢 Close to Perfect                               |
 | [Crafting Tweaks](https://modrinth.com/mod/crafting-tweaks)  | 📋In the planning                                 |
@@ -36,7 +37,6 @@ Want something more *nightly*? Get autopack version of this pack [here](https://
 | [Fabric API](https://modrinth.com/mod/fabric-api)            | ✅ Perfect                                        |
 | [Iris Shaders](https://modrinth.com/mod/iris) [^2]           | 🟢 Close to Perfects                              |
 | [Language Reload](https://modrinth.com/mod/language-reload)  | ✅ Perfect                                        |
-| [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue) | 🟢 Close to Perfects                              |
 | [Net Music](https://modrinth.com/mod/net-music)              | 🔴 Need more tests                                |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | 🔴 Need more tests                                |
 | [Panorama](https://modrinth.com/mod/swd-panorama)            | ✅ Perfect                                        |
