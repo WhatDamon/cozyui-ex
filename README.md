@@ -1,6 +1,6 @@
 # 🥳 CozyUI Ex, an unofficial extended resource pack for CozyUI+
 
-![GitHub Repo stars](https://img.shields.io/github/stars/WhatDamon/cozyui-ex?style=for-the-badge&logo=github)[![Last commit](https://img.shields.io/github/last-commit/WhatDamon/cozyui-ex?style=for-the-badge&logo=github)](https://github.com/WhatDamon/cozyui-ex/commits/main/)[![Autopack Status](https://img.shields.io/github/actions/workflow/status/WhatDamon/cozyui-ex/autopack.yml?style=for-the-badge&label=autopack%20build&logo=github)](https://github.com/WhatDamon/cozyui-ex/actions/workflows/autopack.yml)![Modrinth Downloads](https://img.shields.io/modrinth/dt/cozyui-ex?style=for-the-badge&logo=modrinth)![Modrinth Followers](https://img.shields.io/modrinth/followers/cozyui-ex?style=for-the-badge&logo=modrinth)![Modrinth Version](https://img.shields.io/modrinth/v/cozyui-ex?style=for-the-badge&logo=modrinth&label=modrinth%20latest)
+![GitHub Repo stars](https://img.shields.io/github/stars/WhatDamon/cozyui-ex?style=for-the-badge&logo=github) [![Last commit](https://img.shields.io/github/last-commit/WhatDamon/cozyui-ex?style=for-the-badge&logo=github)](https://github.com/WhatDamon/cozyui-ex/commits/main/) [![Autopack Status](https://img.shields.io/github/actions/workflow/status/WhatDamon/cozyui-ex/autopack.yml?style=for-the-badge&label=autopack%20build&logo=github)](https://github.com/WhatDamon/cozyui-ex/actions/workflows/autopack.yml) [![Modrinth Downloads](https://img.shields.io/modrinth/dt/cozyui-ex?style=for-the-badge&logo=modrinth)](https://modrinth.com/resourcepack/cozyui-ex) ![Modrinth Followers](https://img.shields.io/modrinth/followers/cozyui-ex?style=for-the-badge&logo=modrinth) ![Modrinth Version](https://img.shields.io/modrinth/v/cozyui-ex?style=for-the-badge&logo=modrinth&label=modrinth%20latest)
 
 > ⚠️ WARNING!!!
 >
@@ -36,6 +36,7 @@ Want something more *nightly*? Get autopack version of this pack [here](https://
 | [Fabric API](https://modrinth.com/mod/fabric-api)            | ✅ Perfect                                        |
 | [Iris Shaders](https://modrinth.com/mod/iris) [^2]           | 🟢 Close to Perfects                              |
 | [Language Reload](https://modrinth.com/mod/language-reload)  | ✅ Perfect                                        |
+| [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue) | 🟢 Close to Perfects                              |
 | [Net Music](https://modrinth.com/mod/net-music)              | 🔴 Need more tests                                |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | 🔴 Need more tests                                |
 | [Panorama](https://modrinth.com/mod/swd-panorama)            | ✅ Perfect                                        |
