@@ -28,15 +28,16 @@ Want something more *nightly*? Get autopack version of this pack [here](https://
 | [Cherished Worlds](https://modrinth.com/mod/cherished-worlds) | ✅ Perfect                                        |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config)    | 🟢 Close to Perfect                               |
 | [Crafting Tweaks](https://modrinth.com/mod/crafting-tweaks)  | 📋In the planning                                 |
-| [Create](https://modrinth.com/mod/create) (including Ponder) | 📋In the planning                                 |
+| [Create](https://modrinth.com/mod/create) [^1]               | 📋In the planning                                 |
 | [Controlify](https://modrinth.com/mod/controlify)            | 📋In the planning                                 |
 | [EMI](https://modrinth.com/mod/emi)                          | 📋In the planning (maybe also in CozyUI+'s plans) |
 | [Fabric API](https://modrinth.com/mod/fabric-api)            | ✅ Perfect                                        |
-| [Iris Shaders](https://modrinth.com/mod/iris)                | 🟢 Close to Perfects                              |
+| [Iris Shaders](https://modrinth.com/mod/iris) [^2]           | 🟢 Close to Perfects                              |
 | [Language Reload](https://modrinth.com/mod/language-reload)  | ✅ Perfect                                        |
 | [Net Music](https://modrinth.com/mod/net-music)              | 🔴 Need more tests                                |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | 🔴 Need more tests                                |
 | [Recursive Resources](https://modrinth.com/mod/recursiveresources) | 🟢 Close to Perfects                              |
+| [ResolutionControl++](https://modrinth.com/mod/resolution-control-plus-plus) [^3] | 🟢 Close to Perfects                              |
 | [Show Me Your Skin!](https://modrinth.com/mod/show-me-your-skin) | 📋In the planning                                 |
 | [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip) | 🟡 Flawed and needs improvement                   |
 | [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) | 📋In the planning                                 |
@@ -52,3 +53,7 @@ Want something more *nightly*? Get autopack version of this pack [here](https://
 Licensed under `GNU GENERAL PUBLIC LICENSE Version 3`
 
 ![GPLv3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+[^1]: Including Ponder.
+[^2]: Haven't test on [Oculus](https://modrinth.com/mod/oculus)!
+[^3]:Haven't test on [Resolution Control](https://github.com/juliand665/Resolution-Control) and [ResolutionControl+](https://modrinth.com/mod/resolution-control-plus)!
