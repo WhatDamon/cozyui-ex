@@ -1,4 +1,4 @@
-name: CozyUIEx Auto Pack
+name: CozyUI Ex Auto Pack
 
 on:
   push:
@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout...
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Preparing...
+      - name: Prepare files and variables
         run: |
           COMMIT_HASH=$(git rev-parse HEAD)
           COMMIT_SHORT=$(git rev-parse --short=8 HEAD)
@@ -21,14 +21,21 @@ jobs:
           echo "COMMIT_SHORT=$COMMIT_SHORT" >> $GITHUB_ENV
           mkdir -p pack
           cp LICENSE pack/
-          touch "pack/${COMMIT_HASH}"
+          touch "pack/${COMMIT_HASH}.txt"
 
-      - name: Packaging....
+      - name: Pack the full version
         run: |
           cd pack && zip -r "../CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}.zip" .
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Pack the version without panorama 
+        run: |
+          rm -rf pack/assets/minecraft/textures/gui/title/background
+          cd pack && zip -r "../CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}_no-panorama.zip" .
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
         with:
-          name: CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}
-          path: CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}.zip
+          name: CozyUI Ex Autopack Artifacts
+          path: |
+            CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}.zip
+            CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}_no-panorama.zip
