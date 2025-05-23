@@ -33,9 +33,9 @@ jobs:
           cd pack && zip -r "../CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}_no-panorama.zip" .
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: CozyUI Ex Autopack Artifacts
+          name: CozyUI Ex Autopack Artifacts ${{ env.COMMIT_SHORT }}
           path: |
             CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}.zip
             CozyUIEx_Autopack_${{ env.COMMIT_SHORT }}_no-panorama.zip
