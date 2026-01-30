@@ -29,7 +29,7 @@
 
 你可以在 [Modrinth](https://modrinth.com/resourcepack/cozyui-ex) 下载此资源包的最新版本！*(推荐)*
 
-想要更*激进*的版本？在[此处](https://github.com/WhatDamon/cozyui-ex/actions)获取此资源包的自动构建版!
+想要更*激进*的版本？在[此处](https://nightly.link/WhatDamon/cozyui-ex/workflows/autopack/main/)获取此资源包的自动构建版!
 
 ## 🖊️ 额外支持
 

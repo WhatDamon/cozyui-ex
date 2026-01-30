@@ -29,7 +29,7 @@ This resource pack covers CozyUI+ into more mods, as well as supporting GUIs spe
 
 You can download the latest version of this resources pack on [Modrinth](https://modrinth.com/resourcepack/cozyui-ex)! *(Recommended)*
 
-Want something more *nightly*? Get autopack version of this pack [here](https://github.com/WhatDamon/cozyui-ex/actions)! 
+Want something more *nightly*? Get autopack version of this pack [here](https://nightly.link/WhatDamon/cozyui-ex/workflows/autopack/main/)! 
 
 ## 🖊️ Extra Support
 
