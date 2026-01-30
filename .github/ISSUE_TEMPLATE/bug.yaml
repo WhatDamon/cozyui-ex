@@ -1,12 +1,12 @@
 name: Bug Report
 description: Report a bug on this resource pack.
 title: "[BUG]: "
-labels: ["bug", "need2discuss"]
+labels: ["type:bug", "status:need2discuss"]
 body:
   - type: markdown
     attributes:
       value: |
-        Welcome to submit module UI problem reports!
+        Welcome to submit mod UI problem reports!
         Please carefully complete all the contents of this issue, any non-compliant issue will not be accepted and **Closed as not planned**.
   - type: checkboxes
     id: noduplicate

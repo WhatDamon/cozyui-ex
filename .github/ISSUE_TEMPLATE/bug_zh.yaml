@@ -1,7 +1,7 @@
 name: 问题报告
 description: 报告本材质的一些问题.
 title: "[BUG]: "
-labels: ["bug", "need2discuss"]
+labels: ["type:bug", "status:need2discuss"]
 body:
   - type: markdown
     attributes:

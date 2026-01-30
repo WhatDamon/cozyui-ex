@@ -1,7 +1,7 @@
 name: Request
 description: Tell me what mod you'd like to see use CozyUI for their UIs!
 title: "[REQUEST]: "
-labels: ["request", "need2discuss"]
+labels: ["type:request", "status:need2discuss"]
 body:
   - type: markdown
     attributes:
