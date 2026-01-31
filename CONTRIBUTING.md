@@ -60,7 +60,7 @@ Please run ...
 git clone https://github.com/Fogg05/CozyUI-Plus
 ~~~
 
-to clone the original CozyUI+ repository. You can also use assets from CozyUI+ or CozyUI Ex resource packs.
+to clone the original CozyUI+ repository. You can also use assets directly from CozyUI+ or CozyUI Ex resource packs.
 
 and then run...
 
@@ -78,6 +78,8 @@ You may be looking for requirements to create a split UI, or a one-piece UI, all
 
 More on creating a resource pack: https://minecraft.wiki/w/Tutorial:Creating_a_resource_pack
 
+Additionally, there are some useful tools here that you can find in the `utils` directory. __Note that Python is required!__
+
 ### Test.
 
 After exporting the image and placing it in the corresponding location, load the resource pack and open the corresponding user interface to see if there is any problem.
@@ -91,9 +93,8 @@ If the size of a single PSD file still exceeds **100MiB** after compression, the
 
 2. Remove useless metadata (if any) from the PSD file.
 
-3. Split the PSD file (especially for texture atlases)
+3. Split PSD files into multiple files using Photoshop Smart Objects
 
-For splitting PSD files, you need to make sure that the PSD is named something like `xxx.part1.psd`, and you need a documentation file named something like `xxx.psd.md` in the same directory as those split PSD files to explain how to merge those project files!
 We don't use Git LFS unless it's necessary, so please contact the project owner in advance if none of the above options solves the problem of oversized files!
 
 ### Pull request.
@@ -107,7 +108,7 @@ Project owners, as well as those involved, will make an assessment and decide wh
 
 ### Join us.
 
-If you would like to participate in the production of this project on an ongoing basis, please send an email to [whatdamon@damon.top](mailto:whatdamon@damon.top).
+If you would like to participate in the production of this project on an ongoing basis, please send an email to [whatdamon@damon233.top](mailto:whatdamon@damon233.top).
 
 Please describe in detail your reason for joining and include your GitHub account name in the email, and please use either English or Chinese to make your request, otherwise it will not be accepted.
 
@@ -137,7 +138,8 @@ or...
 
 In general, the former commit message style is preferred, and you are free to use the second style, but there is no third style to choose from.
 
-- | **[TYPE]** | Descriptions                                                 |
+- **[TYPE]**
+| Name       | Descriptions                                                 |
 | ---------- | ------------------------------------------------------------ |
 | `feat`     | Add new mod user interface                                   |
 | `fix`      | Fix some problems with existing textures, or just modified textures |
@@ -160,7 +162,7 @@ cozyui-ex /
 ├── gallery /
 ├── pack /
 │   ├── assets / <--- What you should modify
-│   │   └── [MODNAMESPACE] /
+│   │   └── [MOD_ID] /
 │   │       └── textures/
 │   │           └── gui /
 │   │               ├── xxx.png <--- Image that will be loaded
@@ -168,12 +170,13 @@ cozyui-ex /
 │   ├── pack.mcmeta
 │   └── pack.png
 ├── project /  <--- What you should modify
-│   ├── [MODNAMESPACE] /
+│   ├── [MOD_ID] /
 │   │   └── textures /
 │   │       └── gui /
 │   │           └── xxx.psd <--- Photoshop Project File
 │   ├── background.png
 │   └── pack.psd
+├── utils / <--- Utilties
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
@@ -181,6 +184,10 @@ cozyui-ex /
 
 ## FAQ
 
-Q: Can I use software like paint.net to create or edit textures?
+Q: Can I use software like Affinity, paint.net to create or edit textures?
 
-*A: Yes, but you need to make sure that you have converted the project files to PSD files and that you have kept the layers!*
+*A: Yes, but you need to make sure that you have converted the project files to PSD files(or PSB for smart objects) and that you have kept the layers!*
+
+Q: I'd like to contribute to the utility tools in the repository, what should I do?
+
+*A: Simply contribute your code to the `utils` directory. This repository prefers __Python__ as the development language for utility tools.*
