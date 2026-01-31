@@ -4,27 +4,27 @@ Thank you for your interest in contributing to **CozyUI Ex** project! Every cont
 
 If you're a new contributor, please read this document to clarify the considerations you need to take into account when contributing to the project.
 
-## Table of Contents
+## Table of Contents.
 
-- [**Submit a mod support request or raise a resource pack bug.**](#submit-a-mod-support-request-or-raise-a-resource-pack-bug)
+- [**Submit a Mod Support Request or Raise a Resource Pack Bug.**](#submit-a-mod-support-request-or-raise-a-resource-pack-bug)
   - [What should I do?](#what-should-i-do)
 
-- [**Participate in making.**](#participate-in-making)
+- [**Participate in Making.**](#participate-in-making)
   - [Getting Started.](#getting-started)
-  - [Making textures.](#making-textures)
+  - [Making Textures.](#making-textures)
   - [Test.](#test)
   - [Optimize.](#optimize)
-  - [Pull request.](#pull-request)
+  - [Pull Request.](#pull-request)
   
-- [**Publicizing the project.**](#publicizing-the-project)
+- [**Publicizing the Project.**](#publicizing-the-project)
 - [**Styleguides.**](#styleguides)
-  - [Commit messages.](#commit-messages)
-  - [Files](#files)
-- [**FAQ**](#faq)
+  - [Pull Request Title.](#pull-request-title)
+  - [Files.](#files)
+- [**FAQ.**](#faq)
 
 
 
-## Submit a mod support request or raise a resource pack bug.
+## Submit a Mod Support Request or Raise a Resource Pack Bug.
 
 For this type of contribution, please go to the [Issues page](https://github.com/WhatDamon/cozyui-ex/issues) and submit a new issue.
 
@@ -32,7 +32,7 @@ We don't like a lot of duplicate issues piling up, so for every issue you submit
 
 ### What should I do?
 
-We use GitHub issues to track bugs and errors.
+We use GitHub issues to track bugs.
 
 Before starting an issue submission, please update **CozyUI Ex** to the latest version, and for **CozyUI+**, please prioritize the recommended version and adjust the loading order as specified.
 
@@ -42,17 +42,19 @@ If the problem persists, open a new issue in the following order...
 - Choose a template according to your requirements.
 - Provide information according to the template.
 
-## Participate in making.
+## Participate in Making.
 
 > ### Legal Notice
 > 
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project licence.
 >
 > This project uses the `GPLv3 license`, please read [this document](https://github.com/WhatDamon/cozyui-ex/blob/main/LICENSE) to clarify your rights and obligations!
+>
+> For special licensing methods, please specify accordingly.
 
 In general, unless recognized by the author of this resource pack and given permissions, it is necessary to contribute the project via pull requests.
 
-### Getting started.
+### Getting Started.
 
 Please run ...
 
@@ -70,7 +72,7 @@ git clone https://github.com/WhatDamon/cozyui-ex
 
 to clone CozyUI Ex repository. 
 
-### Making textures.
+### Making Textures.
 
 Typically, CozyUI's texture size is 3 to 4 times of the original, if you want to make animation you need a `mcmeta` file and lengthen the texture image file vertically, you only need to use Photoshop to edit with the available textures.
 
@@ -97,34 +99,38 @@ If the size of a single PSD file still exceeds **100MiB** after compression, the
 
 We don't use Git LFS unless it's necessary, so please contact the project owner in advance if none of the above options solves the problem of oversized files!
 
-### Pull request.
+### Pull Request.
 
 Please [fork this repository](https://github.com/WhatDamon/cozyui-ex/fork) before pulling the request, you need to commit your changes to the forked repository, after making sure it's done, please follow the steps below...
 
 - Open a new [pull request](https://github.com/WhatDamon/cozyui-ex/compare).
 - Follow the guide to complete the creation of a new pull request.
 
-Project owners, as well as those involved, will make an assessment and decide whether or not to merge.
+__Each PR should focus on a single update; otherwise, it will be closed immediately.__
 
-### Join us.
+Project owner and collaborators, will make an assessment and decide whether or not to merge.
+
+### Join Us.
 
 If you would like to participate in the production of this project on an ongoing basis, please send an email to [whatdamon@damon233.top](mailto:whatdamon@damon233.top).
 
 Please describe in detail your reason for joining and include your GitHub account name in the email, and please use either English or Chinese to make your request, otherwise it will not be accepted.
 
-If your request is approved, you will receive an invitation email from GitHub.
+If your request is approved, you will receive an invitation email from GitHub. If you accept, you will become a collaborator on this repository.
 
-## Publicizing the project.
+## Publicizing the Project.
 
 Feel free to publicize the project. However, during the process, we recommend pairing it with the CozyUI+!
+
+This resource pack is, after all, an extension of CozyUI+, and without it, everything is broken. Moreover, without CozyUI+, this project wouldn't exist at all.
 
 ## Styleguides.
 
 To keep the project neat and maintainable, please observe the following styleguides!
 
-### Commit messages.
+### Pull Request Title.
 
-Please observe the following rules for each commit message:
+Please observe the following rules for your PR's title:
 
 ~~~
 [TYPE]: [MESSAGE]
@@ -136,9 +142,12 @@ or...
 [TYPE]([MODNAME]): [MESSAGE]
 ~~~
 
-In general, the former commit message style is preferred, and you are free to use the second style, but there is no third style to choose from.
+In general, the former PR title style is preferred, and you are free to use the second style, but there is no third style to choose from.
 
-- **[TYPE]**
+Non-standard titles will be modified prior to merging. No emoji is welcomed!
+
+- **[TYPE]:**
+
 | Name       | Descriptions                                                 |
 | ---------- | ------------------------------------------------------------ |
 | `feat`     | Add new mod user interface                                   |
@@ -148,11 +157,11 @@ In general, the former commit message style is preferred, and you are free to us
 | `workflow` | Changes to Github Actions or production workflows            |
 | `chore`    | Others                                                       |
 
-- **[MODNAME]**: The name (or namespace) of the target mod. *(optional)*
+- **[MODNAME]:**: The name (or namespace) of the target mod. *(optional)*
 
 - **[MESSAGE]:** Description of the modification.
 
-### **Files**
+### **Files.**
 
 Please observe the following file storage structure to ensure the maintainability of the repository.
 
