@@ -54,6 +54,8 @@ If the problem persists, open a new issue in the following order...
 
 In general, unless recognized by the author of this resource pack and given permissions, it is necessary to contribute the project via pull requests.
 
+For information on the use of artificial intelligence, please refer to `AI_POLICY.md`.
+
 ### Getting Started.
 
 Please run ...
@@ -167,7 +169,7 @@ Please observe the following file storage structure to ensure the maintainabilit
 
 ~~~
 cozyui-ex /
-├── .github /
+├── .github / <--- Contain workflows and some templates
 ├── gallery /
 ├── pack /
 │   ├── assets / <--- What you should modify
@@ -186,6 +188,7 @@ cozyui-ex /
 │   ├── background.png
 │   └── pack.psd
 ├── utils / <--- Utilties
+├── AI_POLICY.md
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
