@@ -44,6 +44,7 @@ If the problem persists, open a new issue in the following order...
 
 ## Participate in Making.
 
+> [!IMPORTANT]
 > ### Legal Notice
 > 
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project licence.
@@ -54,7 +55,14 @@ If the problem persists, open a new issue in the following order...
 
 In general, unless recognized by the author of this resource pack and given permissions, it is necessary to contribute the project via pull requests.
 
-For information on the use of artificial intelligence, please refer to `AI_POLICY.md`.
+> [!CAUTION]
+> **This project is not 100% AI-fridendly!**
+>
+> In short, nearly everything created by human is welcomed, but final assets AI is totally UNACCEPTABLE!
+>
+> For more information on the use of artificial intelligence, please refer to `AI_POLICY.md`.
+>
+> All contributions created by AI will be judged by the policy.
 
 ### Getting Started.
 
